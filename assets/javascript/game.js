@@ -29,12 +29,12 @@ $(document).ready(function() {
         counter = counter + num1;
         $("#totalNumber").text(counter);
         if (counter === targetNumber) {
-            alert("You win!");
+            alert("Congratulations! You won!");
             wins++;
             $("#total-wins").text(wins);
             reset();
         } else if (counter >= targetNumber) {
-            alert("You lose!!");
+            alert("Sorry, you lost!");
             losses++;
             $("#total-losses").text(losses);
             reset();
@@ -43,13 +43,13 @@ $(document).ready(function() {
     $("#two").on("click", function() {
         counter = counter + num2;
         $("#totalNumber").text(counter);
-        if (counter === targetNumber) {
-            alert("You win!");
+       if (counter === targetNumber) {
+            alert("Congratulations! You won!");
             wins++;
             $("#total-wins").text(wins);
             reset();
         } else if (counter >= targetNumber) {
-            alert("You lose!!");
+            alert("Sorry, you lost!");
             losses++;
             $("#total-losses").text(losses);
             reset();
@@ -73,13 +73,13 @@ $(document).ready(function() {
     $("#four").on("click", function() {
         counter = counter + num4;
         $("#totalNumber").text(counter);
-        if (counter === targetNumber) {
-            alert("You win!");
+       if (counter === targetNumber) {
+            alert("Congratulations! You won!");
             wins++;
             $("#total-wins").text(wins);
             reset();
         } else if (counter >= targetNumber) {
-            alert("You lose!!");
+            alert("Sorry, you lost!");
             losses++;
             $("#total-losses").text(losses);
             reset();
