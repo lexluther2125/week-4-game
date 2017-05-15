@@ -1,0 +1,67 @@
+body {
+    font-family: 'Audiowide', cursive;
+    font-size: 16px;
+    color: blue;
+    background-image: url("../images/stars.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    text-indent: 10px;
+    color: #d83cbe;
+    font-size: 100px;
+}
+
+
+#number-to-guess {
+    height: 72px;
+    width: 326.5px;
+    font-size: 18px,
+}
+
+#totalNumber {
+    height: 72px;
+    width: 326.5px;
+    font-size: 18px,
+}
+
+#total-wins {
+    height: 72px;
+    width: 326.5px;
+    font-size: 18px,
+}
+
+#total-losses {
+    height: 72px;
+    width: 326.5px;
+    font-size: 18px,
+}
+
+#header {
+    align-items: center;
+}
+
+#one {
+    height: 300px;
+    width: 300px;
+    
+}
+
+#two {
+    height: 300px;
+    width: 300px;
+    
+}
+
+#three {
+    height: 300px;
+    width: 300px;
+    
+}
+
+#four {
+    height: 300px;
+    width: 300px;
+    
+}
