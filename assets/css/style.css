@@ -1,7 +1,7 @@
 body {
     font-family: 'Audiowide', cursive;
     font-size: 16px;
-    color: blue;
+    color: purple;
     background-image: url("../images/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,25 +43,29 @@ body {
 }
 
 #one {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
     
 }
 
 #two {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
     
 }
 
 #three {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
     
 }
 
 #four {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
     
 }
